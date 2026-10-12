@@ -3,7 +3,7 @@
 
 Items: {
 	AscendantsBlade: {
-		DisplayName: "Ascendants Blade"
+		DisplayName: Ascendants Blade
 		Tooltip:
 			'''
 			Template of an item
