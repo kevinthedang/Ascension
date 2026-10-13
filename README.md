@@ -17,7 +17,7 @@ A Roguelike Mod for Tmodloader
 
 ## Roadmap
 
-### Phase 1 * Core Combat
+### Phase 1 - Core Combat
 
 #### Basic Weapons
 
@@ -36,7 +36,7 @@ A Roguelike Mod for Tmodloader
 
 ---
 
-### Phase 2 * World Generation
+### Phase 2 - World Generation
 
 * [ ] Create custom lobby on world gen
 * [ ] Run Start mechanism
@@ -44,7 +44,7 @@ A Roguelike Mod for Tmodloader
 
 ---
 
-### Phase 3 * Room Building
+### Phase 3 - Room Building
 
 #### Rooms and Templates
 
@@ -62,7 +62,7 @@ A Roguelike Mod for Tmodloader
 
 ---
 
-### Phase 4 * Relics / Upgrades
+### Phase 4 - Relics / Upgrades
 
 Items that affect the current run.
 
@@ -99,7 +99,7 @@ Item Idea:
 * [ ] Weapon Modifiers
 * [ ] HP
 
-#### Build*Altering Effects
+#### Build-Altering Effects
 
 * [ ] Burn
 * [ ] Bleed
@@ -118,7 +118,7 @@ Item Idea:
 
 ---
 
-### Phase 5 * Economy
+### Phase 5 - Economy
 
 #### Trading Room
 
@@ -129,7 +129,7 @@ Item Idea:
 
 ---
 
-### Phase 6 * Roguelike Features
+### Phase 6 - Roguelike Features
 
 #### Run Events
 
@@ -147,9 +147,9 @@ Item Idea:
 
 ---
 
-### Phase 7 * Multiplayer
+### Phase 7 - Multiplayer
 
-* [ ] Co*op Balancing
+* [ ] Co-op Balancing
 * [ ] Shared Rewards or Multiple Drops
 * [ ] Revive System
 * [ ] Death Until Next Biome?
