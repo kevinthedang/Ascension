@@ -1,0 +1,56 @@
+name: Validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Verify Important Files Exist
+        run: |
+          test -f Ascension.csproj
+          test -f build.txt
+          test -f description.txt
+
+      - name: Verify Localization Files
+        run: |
+          find Localization -type f
+
+      - name: Verify PNG Assets
+        run: |
+          find . -name "*.png" | while read file; do
+            if [ ! -s "$file" ]; then
+              echo "Empty PNG found: $file"
+              exit 1
+            fi
+          done
+
+      - name: Verify C# Files Exist
+        run: |
+          count=$(find . -name "*.cs" | wc -l)
+          echo "Found $count C# files"
+
+          if [ "$count" -eq 0 ]; then
+            echo "No C# source files found"
+            exit 1
+          fi
+
+      - name: Check for Merge Conflict Markers
+        run: |
+          if grep -R --include="*.cs" -n "<<<<<<<\|=======\|>>>>>>>" .; then
+            echo "Merge conflict markers found"
+            exit 1
+          fi
+
+      - name: Validate build.txt Exists
+        run: |
+          cat build.txt
