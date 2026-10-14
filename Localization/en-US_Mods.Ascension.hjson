@@ -11,4 +11,9 @@ Items: {
 		DisplayName: Ascendants Gun
 		Tooltip: One of many weapons of the Ascendants.
 	}
+
+	AscendantsStaff: {
+		DisplayName: Ascendants Staff
+		Tooltip: One of many weapons of the Ascendants.
+	}
 }
