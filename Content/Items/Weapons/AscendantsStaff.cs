@@ -1,10 +1,11 @@
+using Ascension.Utilities;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Ascension.Content.Items.Weapons
 {
-    public class AscendantsStaff : ModItem 
+    public class AscendantsStaff : GenericAimedWeapon 
     {
         public override void SetDefaults()
         {
@@ -26,15 +27,6 @@ namespace Ascension.Content.Items.Weapons
         public override void SetStaticDefaults()
         {
             Item.staff[Item.type] = true;
-        }
-
-        // TODO: Remove when done testing
-        public override void AddRecipes()
-        {
-            Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.DirtBlock, 10);
-            recipe.AddTile(TileID.WorkBenches);
-            recipe.Register();
         }
     }
 }

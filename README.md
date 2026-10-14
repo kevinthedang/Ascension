@@ -27,12 +27,14 @@ Docs to refer to:
 
 #### Basic Weapons
 
-* [ ] Basic Projectile Weapon (AscensionPistol)
-* [ ] Basic Melee (AscensionBlade)
-* [ ] Basic Magic (AscensionBook/Sceptre?)
-* [ ] Basic Summon? (AscensionStaff)
+* [x] Basic Projectile Weapon
+* [x] Basic Melee
+* [x] Basic Magic
+* [ ] Basic Summon? (AscensionSceptre)
 * [ ] Basic Rogue? (AscensionDagger)
 * [ ] Balance Weapons
+* [ ] Handle Weapon Smoothing and Tracking
+* [ ] Handle Basic Player Stats
 
 #### Basic Enemies
 
