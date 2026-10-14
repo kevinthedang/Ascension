@@ -18,8 +18,10 @@ jobs:
       - name: Verify Important Files Exist
         run: |
           test -f Ascension.csproj
+          test -f Ascension.cs
           test -f build.txt
           test -f description.txt
+          test -f description_workshop.txt
 
       - name: Verify Localization Files
         run: |
@@ -34,23 +36,9 @@ jobs:
             fi
           done
 
-      - name: Verify C# Files Exist
-        run: |
-          count=$(find . -name "*.cs" | wc -l)
-          echo "Found $count C# files"
-
-          if [ "$count" -eq 0 ]; then
-            echo "No C# source files found"
-            exit 1
-          fi
-
       - name: Check for Merge Conflict Markers
         run: |
           if grep -R --include="*.cs" -n "<<<<<<<\|=======\|>>>>>>>" .; then
             echo "Merge conflict markers found"
             exit 1
           fi
-
-      - name: Validate build.txt Exists
-        run: |
-          cat build.txt
