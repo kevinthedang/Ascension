@@ -4,11 +4,11 @@
 Items: {
 	AscendantsBlade: {
 		DisplayName: Ascendants Blade
-		Tooltip:
-			'''
-			Template of an item
-			Replacing this tooltip is duty 
-			It's snowing on Mt.Fuji
-			'''
+		Tooltip: One of many weapons of the Ascendants.
+	}
+
+	AscendantsGun: {
+		DisplayName: Ascendants Gun
+		Tooltip: One of many weapons of the Ascendants.
 	}
 }

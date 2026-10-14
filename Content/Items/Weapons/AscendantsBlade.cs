@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Ascension.Content.Items
+namespace Ascension.Content.Items.Weapons
 {
 	// This is a basic item template.
 	// Please see tModLoader's ExampleMod for every other example:
@@ -24,8 +24,10 @@ namespace Ascension.Content.Items
 			Item.rare = ItemRarityID.Blue;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
+			Item.shootSpeed = 16f;
 		}
 
+		// TODO: Remove when done testing
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();

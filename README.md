@@ -2,6 +2,12 @@
 
 A Roguelike Mod for Tmodloader
 
+Docs to refer to:
+* [tModLoader Documentation](https://docs.tmodloader.net/docs/stable/annotated.html)
+* [tModLoader Wiki](https://github.com/tModLoader/tModLoader/wiki)
+* [Example Mod from tModLoader](https://github.com/tModLoader/tModLoader/tree/1.4.5/ExampleMod)
+
+
 ## Core Gameplay Loop
 
 1. Spawn in the Hub
