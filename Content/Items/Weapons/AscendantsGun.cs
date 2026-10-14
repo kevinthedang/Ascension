@@ -27,12 +27,12 @@ namespace Ascension.Content.Items.Weapons
 
         // TODO: Remove when done testing
         public override void AddRecipes()
-		{
-			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 1);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.Register();
-		}
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemID.DirtBlock, 1);
+            recipe.AddTile(TileID.WorkBenches);
+            recipe.Register();
+        }
 
         /// <summary>
         /// Makes sure the player can only have one bullet projectile active at a time. This prevents spamming bullets and makes the gun feel more balanced.
@@ -43,5 +43,5 @@ namespace Ascension.Content.Items.Weapons
         {
             return !Main.projectile.Any(n => n.active && n.owner == player.whoAmI && n.type == ProjectileID.Bullet);
         }
-    }    
-}   
+    }
+}
