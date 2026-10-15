@@ -17,25 +17,19 @@ namespace Ascension.Utilities
         }
 
         /// <summary>
-        /// Smooths out holding the gun
+        /// Smooths out holding the gun aligning player arm
         /// </summary>
         /// <param name="player">the player</param>
-        public override void UseItemFrame(Player player) 
+        /// <param name="heldItemFrame">the frame of the held item</param> 
+        public override void UseStyle(Player player, Rectangle heldItemFrame) 
         {
-            // Calculate the angle between the player and the mouse cursor
             Vector2 direction = Main.MouseWorld - player.MountedCenter;
+            player.direction = (Main.MouseWorld.X < player.MountedCenter.X) ? -1 : 1;
             float rotation = direction.ToRotation();
 
-            // Assign the angle to the item's rotation
-            player.itemRotation = rotation;
-
-            // Ensure the player flips correctly depending on where they point
-            player.direction = (Main.MouseWorld.X < player.MountedCenter.X) ? -1 : 1;
-
-            // Adjust the sprite rotation if it appears upside down when facing left
-            if (player.direction == -1) {
-                player.itemRotation += MathHelper.Pi; // Flips the sprite 180 degrees
-            }
+            if (player.direction == -1)
+                rotation += MathHelper.Pi; // Flips the sprite 180 degrees
+            player.itemRotation = MathHelper.WrapAngle(rotation);
         }
     }
 }
