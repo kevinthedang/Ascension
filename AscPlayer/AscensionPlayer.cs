@@ -1,9 +1,9 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace Ascension.RoguelikePlayer
+namespace Ascension.AscPLayer
 {
-    public class AscendantPlayer : ModPlayer
+    public class AscensionPlayer : ModPlayer
     {
         public override void ResetEffects()
         {

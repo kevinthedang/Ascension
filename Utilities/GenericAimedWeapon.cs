@@ -20,8 +20,7 @@ namespace Ascension.Utilities
         /// Smooths out holding the gun
         /// </summary>
         /// <param name="player">the player</param>
-        /// <param name="heldItemFrame">the rectangle of the held item</param>
-        public override void UseStyle(Player player, Rectangle heldItemFrame) 
+        public override void UseItemFrame(Player player) 
         {
             // Calculate the angle between the player and the mouse cursor
             Vector2 direction = Main.MouseWorld - player.MountedCenter;
