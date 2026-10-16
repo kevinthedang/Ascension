@@ -1,1 +1,27 @@
-This description will show up on the steam page, check out https://steamcommunity.com/comment/Guide/formattinghelp.
+This description will show up on the steam page, check out https://steamcommunity.com/comment/Guide/formattinghelp.[h1]Terraria: Ascension[/h1]
+[h3]A Roguelike Mod for tModLoader[/h3]
+
+[b]Ascension[/b] completely reshapes the traditional Terraria experience into an action-packed, fast-paced roguelike adventure. Prepare your build, select your path, and face escalating combat encounters where every choice matters. 
+
+[hr][/hr]
+
+[h2]The Core Gameplay Loop[/h2]
+[olist]
+[*] [b]The Hub:[/b] Spawn in a safe lobby to prepare your character.
+[*] [b]Choose Your Path:[/b] Select your next destination and prepare for combat.
+[*] [b]Combat Encounters:[/b] Enter instanced, procedurally connected rooms filled with threats.
+[*] [b]Conquer and Defeat:[/b] Fight your way through regular enemies, challenging Elites, and Biome Bosses.
+[*] [b]Adapt and Evolve:[/b] Earn powerful run-specific relics, status effects, and stat upgrades.
+[*] [b]Synergize:[/b] Chain unique offensive and defensive mechanics to create broken, unstoppable builds.
+[*] [b]Deconstruct the Run:[/b] Defeat the final boss... or die trying, reset, and start fresh with a completely different loadout!
+[/olist]
+
+[hr][/hr]
+
+[i]Terraria: Ascension is currently under development.[/i] Because this project is open-source, your feedback, bug reports, and contributions directly shape the future of the mod.
+
+
+Source code to follow daily progress on GitHub: [url=https://github.com/kevinthedang/Ascension]kevinthedang/Ascension[/url]
+
+
+[b]Disclaimer:[/b] Expect balancing changes, bugs, and frequent content drops as we work through the development alpha phases!
