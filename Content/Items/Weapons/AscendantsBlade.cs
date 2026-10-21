@@ -14,16 +14,20 @@ namespace Ascension.Content.Items.Weapons
         {
             Item.damage = 100;
             Item.DamageType = DamageClass.Melee;
+
             Item.width = 40;
             Item.height = 40;
+
             Item.useTime = 20;
             Item.useAnimation = 20;
             Item.useStyle = ItemUseStyleID.Swing;
-            Item.knockBack = 6;
-            Item.rare = ItemRarityID.Blue;
+
+            Item.knockBack = 5;
             Item.UseSound = SoundID.Item1;
             Item.autoReuse = true;
             Item.shootSpeed = 16f;
+
+            Item.rare = ItemRarityID.Cyan;
         }
 
         // TODO: Remove when done testing

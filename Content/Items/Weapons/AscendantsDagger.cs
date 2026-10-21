@@ -10,10 +10,9 @@ namespace Ascension.Content.Items.Weapons
     {
         public override void SetDefaults()
         {
-            Item.damage = 14;
+            Item.damage = 15;
             Item.DamageType = DamageClass.Generic; // Standalone version, not Calamity Rogue
             Item.knockBack = 1f;
-            Item.crit = 4;
 
             Item.width = 26;
             Item.height = 26;
@@ -29,8 +28,7 @@ namespace Ascension.Content.Items.Weapons
             Item.shoot = ModContent.ProjectileType<AscendantsDaggerProjectile>();
             Item.shootSpeed = 15f;
 
-            Item.rare = ItemRarityID.Blue;
-            Item.value = Item.sellPrice(silver: 20);
+            Item.rare = ItemRarityID.Cyan;
         }
 
         public override Vector2? HoldoutOffset()

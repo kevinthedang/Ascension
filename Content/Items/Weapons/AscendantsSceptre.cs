@@ -17,7 +17,7 @@ namespace Ascension.Content.Items.Weapons
         {
             Item.damage = 20;
             Item.DamageType = DamageClass.Summon;
-            Item.knockBack = 4f;
+            Item.knockBack = 3f;
 
             Item.width = 32;
             Item.height = 32;
@@ -33,8 +33,7 @@ namespace Ascension.Content.Items.Weapons
             Item.shootSpeed = 10f;
             Item.buffType = BuffID.BabyBird;
 
-            Item.rare = ItemRarityID.Blue;
-            Item.value = Item.buyPrice(gold: 1);
+            Item.rare = ItemRarityID.Cyan;
         }
 
         public override bool Shoot(

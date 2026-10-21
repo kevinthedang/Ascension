@@ -11,18 +11,22 @@ namespace Ascension.Content.Items.Weapons
         {
             Item.damage = 100;
             Item.DamageType = DamageClass.Ranged;
+
             Item.width = 36;
             Item.height = 22;
+
             Item.useTime = 26;
             Item.useAnimation = 26;
             Item.useStyle = ItemUseStyleID.Shoot;
             Item.noMelee = true;
             Item.channel = true;
+            
             Item.knockBack = 5f;
-            Item.rare = ItemRarityID.Cyan;
             Item.autoReuse = true;
             Item.shoot = ProjectileID.Bullet; // TODO: custom projectile?
             Item.shootSpeed = 16f;
+
+            Item.rare = ItemRarityID.Cyan;
         }
 
         /// <summary>
