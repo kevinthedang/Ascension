@@ -4,21 +4,33 @@
 Items: {
 	AscendantsBlade: {
 		DisplayName: Ascendants Blade
-		Tooltip: One of many weapons of the Ascendants.
+		Tooltip: The Sword of the Novice Ascendants.
 	}
 
 	AscendantsGun: {
 		DisplayName: Ascendants Gun
-		Tooltip: One of many weapons of the Ascendants.
+		Tooltip: The Firearm of the Novice Ascendants.
 	}
 
 	AscendantsStaff: {
 		DisplayName: Ascendants Staff
-		Tooltip: One of many weapons of the Ascendants.
+		Tooltip: The Magic Staff of the Novice Ascendants.
 	}
 
 	AscendantsSceptre: {
 		DisplayName: Ascendants Sceptre
-		Tooltip: "One of many weapons of the Ascendants"
+		Tooltip: The Sceptre of the Novice Ascendants
+	}
+
+	AscendantsDagger: {
+		DisplayName: Ascendants Dagger
+		Tooltip:
+			'''
+			The Dagger of the Novice Ascendants
+
+			[c/9400D3:"A knife with barely any magic power in it, but it was all I could afford."]
+			'''
 	}
 }
+
+Projectiles.AscendantsDaggerProjectile.DisplayName: Ascendants Dagger Projectile
