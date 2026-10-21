@@ -3,6 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using Ascension.Content.Projectiles;
+using Ascension.Content.DamageClasses;
 
 namespace Ascension.Content.Items.Weapons
 {
@@ -10,15 +11,15 @@ namespace Ascension.Content.Items.Weapons
     {
         public override void SetDefaults()
         {
-            Item.damage = 15;
-            Item.DamageType = DamageClass.Generic; // Standalone version, not Calamity Rogue
+            Item.damage = 25;
+            Item.DamageType = RogueDamageClass.Instance;
             Item.knockBack = 1f;
 
             Item.width = 26;
             Item.height = 26;
 
-            Item.useTime = 18;
-            Item.useAnimation = 18;
+            Item.useTime = 22;
+            Item.useAnimation = 22;
             Item.useStyle = ItemUseStyleID.Swing;
             Item.noUseGraphic = true;
             Item.UseSound = SoundID.Item1;

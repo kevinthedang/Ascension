@@ -12,15 +12,17 @@ namespace Ascension.Content.Items.Weapons
             Item.damage = 100;
             Item.DamageType = DamageClass.Ranged;
 
-            Item.width = 36;
-            Item.height = 22;
+            Item.width = 42;
+            Item.height = 30;
+            Item.scale = 0.75f;
 
             Item.useTime = 26;
             Item.useAnimation = 26;
             Item.useStyle = ItemUseStyleID.Shoot;
+            Item.UseSound = SoundID.Item164;
             Item.noMelee = true;
             Item.channel = true;
-            
+
             Item.knockBack = 5f;
             Item.autoReuse = true;
             Item.shoot = ProjectileID.Bullet; // TODO: custom projectile?

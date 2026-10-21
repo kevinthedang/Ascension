@@ -15,7 +15,7 @@ namespace Ascension.Content.Items.Weapons
 
         public override void SetDefaults()
         {
-            Item.damage = 20;
+            Item.damage = 35;
             Item.DamageType = DamageClass.Summon;
             Item.knockBack = 3f;
 

@@ -34,3 +34,4 @@ Items: {
 }
 
 Projectiles.AscendantsDaggerProjectile.DisplayName: Ascendants Dagger Projectile
+DamageClasses.RogueDamageClass.DisplayName: rogue damage
