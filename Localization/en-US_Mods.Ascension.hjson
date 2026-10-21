@@ -16,4 +16,9 @@ Items: {
 		DisplayName: Ascendants Staff
 		Tooltip: One of many weapons of the Ascendants.
 	}
+
+	AscendantsSceptre: {
+		DisplayName: Ascendants Sceptre
+		Tooltip: "One of many weapons of the Ascendants"
+	}
 }

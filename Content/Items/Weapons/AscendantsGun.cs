@@ -21,7 +21,7 @@ namespace Ascension.Content.Items.Weapons
             Item.knockBack = 5f;
             Item.rare = ItemRarityID.Cyan;
             Item.autoReuse = true;
-            Item.shoot = ProjectileID.Bullet; // TODO: custom sound?
+            Item.shoot = ProjectileID.Bullet; // TODO: custom projectile?
             Item.shootSpeed = 16f;
         }
 
