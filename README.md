@@ -30,8 +30,8 @@ Docs to refer to:
 * [x] Basic Projectile Weapon
 * [x] Basic Melee
 * [x] Basic Magic
-* [ ] Basic Summon? (AscensionSceptre)
-* [ ] Basic Rogue? (AscensionDagger)
+* [x] Basic Summon
+* [x] Basic Rogue
 * [ ] Balance Weapons
 * [ ] Handle Weapon Smoothing and Tracking
 * [ ] Handle Basic Player Stats
