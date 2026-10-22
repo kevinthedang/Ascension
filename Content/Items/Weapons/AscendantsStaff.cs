@@ -13,14 +13,13 @@ namespace Ascension.Content.Items.Weapons
         {
             Item.damage = 50;
             Item.DamageType = DamageClass.Magic;
-
             Item.width = 40;
             Item.height = 40;
 
             Item.useTime = 35;
             Item.useAnimation = 35;
             Item.useStyle = ItemUseStyleID.Shoot;
-            Item.UseSound = SoundID.DD2_BookStaffCast;
+            Item.UseSound = SoundID.Item43;
 
             Item.knockBack = 6;
             Item.autoReuse = true;

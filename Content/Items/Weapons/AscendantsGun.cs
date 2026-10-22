@@ -19,7 +19,7 @@ namespace Ascension.Content.Items.Weapons
             Item.useTime = 26;
             Item.useAnimation = 26;
             Item.useStyle = ItemUseStyleID.Shoot;
-            Item.UseSound = SoundID.Item164;
+            Item.UseSound = SoundID.Item11;
             Item.noMelee = true;
             Item.channel = true;
 
