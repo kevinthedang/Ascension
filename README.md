@@ -46,6 +46,7 @@ Docs to refer to:
 
 ### Phase 2 - World Generation
 
+* [ ] Base Schematics
 * [ ] Create custom lobby on world gen
 * [ ] Run Start mechanism
 * [ ] Starting Room (first biome) has no mobs and just moves player to start of game
@@ -75,6 +76,7 @@ Docs to refer to:
 Items that affect the current run.
 
 Item Idea:
+* [x] Item Rarity
 * [ ] Random Drop System
 * [ ] Choose 1 of 3 Rewards System
 
