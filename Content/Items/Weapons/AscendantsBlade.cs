@@ -1,3 +1,4 @@
+using Ascension.Content.Rarities;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -25,7 +26,7 @@ namespace Ascension.Content.Items.Weapons
             Item.autoReuse = true;
             Item.shootSpeed = 16f;
 
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = ModContent.RarityType<NoviceRarity>();
         }
     }
 }

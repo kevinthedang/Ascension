@@ -4,6 +4,7 @@ using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using Ascension.Content.Projectiles;
 using Ascension.Content.DamageClasses;
+using Ascension.Content.Rarities;
 
 namespace Ascension.Content.Items.Weapons
 {
@@ -29,7 +30,7 @@ namespace Ascension.Content.Items.Weapons
             Item.shoot = ModContent.ProjectileType<AscendantsDaggerProjectile>();
             Item.shootSpeed = 15f;
 
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = ModContent.RarityType<NoviceRarity>();
         }
 
         public override Vector2? HoldoutOffset()

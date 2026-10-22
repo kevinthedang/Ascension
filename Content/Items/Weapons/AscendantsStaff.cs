@@ -1,3 +1,4 @@
+using Ascension.Content.Rarities;
 using Ascension.Utilities;
 using Microsoft.Xna.Framework;
 using Terraria;
@@ -26,7 +27,7 @@ namespace Ascension.Content.Items.Weapons
             Item.shoot = ProjectileID.SapphireBolt;
             Item.shootSpeed = 16f;
 
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = ModContent.RarityType<NoviceRarity>();
         }
 
         public override bool Shoot(

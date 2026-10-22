@@ -1,3 +1,4 @@
+using Ascension.Content.Rarities;
 using Ascension.Utilities;
 using Terraria;
 using Terraria.ID;
@@ -28,7 +29,7 @@ namespace Ascension.Content.Items.Weapons
             Item.shoot = ProjectileID.Bullet; // TODO: custom projectile?
             Item.shootSpeed = 16f;
 
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = ModContent.RarityType<NoviceRarity>();
         }
 
         /// <summary>

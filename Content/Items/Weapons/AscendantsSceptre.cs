@@ -1,3 +1,4 @@
+using Ascension.Content.Rarities;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
@@ -33,7 +34,7 @@ namespace Ascension.Content.Items.Weapons
             Item.shootSpeed = 10f;
             Item.buffType = BuffID.BabyBird;
 
-            Item.rare = ItemRarityID.Cyan;
+            Item.rare = ModContent.RarityType<NoviceRarity>();
         }
 
         public override bool Shoot(
